@@ -21,6 +21,7 @@ namespace ifc2gltf
                 }
 
                 Console.WriteLine("Output file: " + o.Output);
+
                 var model = IfcStore.Open(o.Input);
                 // IfcInfo.PrintSemantics(model);
                 var stopwatch = new Stopwatch();
